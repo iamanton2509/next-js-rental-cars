@@ -1,0 +1,35 @@
+$blue: rgba(26, 26, 75, 1);
+$dark-red: rgba(47, 15, 44, 1);
+
+.header {
+    border-bottom: 1.5px solid #bbb;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+
+    a {
+        color: $blue;
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0 10px;
+        transition: color 0.4s ease-in-out;
+
+        &:hover,
+        &.active {
+            color: $dark-red;
+        }
+    }
+}
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+.links {
+    display: flex;
+    column-gap: 50px;
+}

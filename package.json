@@ -1,0 +1,33 @@
+{
+  "name": "next-start",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "18.16.2",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "axios": "^1.4.0",
+    "firebase": "^9.21.0",
+    "json-server": "^0.17.3",
+    "next": "13.3.1",
+    "react": "18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-redux": "^8.0.5",
+    "typescript": "5.0.4",
+    "universal-cookie": "^4.0.4",
+    "ymaps": "^0.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

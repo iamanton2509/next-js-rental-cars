@@ -1,0 +1,16 @@
+.cars__title {
+    margin-bottom: 58px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.cars__cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto 35px;
+    gap: 25px;
+}

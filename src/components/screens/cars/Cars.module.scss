@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.input {
+    padding: 3px;
+    border: none;
+    border-bottom: 1.5px solid #bbb;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+
+    &:focus {
+        outline: none;
+    }
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px 15px;
+    margin: 20px auto;
+}

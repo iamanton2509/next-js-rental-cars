@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    justify-content: center;
+    column-gap: 55px;
+    margin: 20px 0;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.name {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.price {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button {
+    display: block;
+    padding: 8px 32px;
+    margin: 10px auto 5px;
+    border: 1.5px solid rgb(235, 240, 244);
+    background-color: rgb(235, 240, 244);
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.button:hover {
+    background-color: rgb(211, 223, 238);
+    border: 1.5px solid rgb(211, 223, 238);
+    color: rgba(0, 0, 0, 0.85);
+}
+.mtitle {
+    text-align: center;
+}
+.mdescription {
+    text-align: center;
+}
+.counter {
+    display: flex;
+    margin: 0 auto;
+    // column-gap: 10px;
+    // flex-direction: column;
+    // row-gap: 5px;
+}
+.result {
+    margin-left: 10px;
+}
+.up, .down {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.days {
+    padding: 0 5px;
+    margin-left: 3px;
+    border-radius: 5px;
+    background-color: #e7e0e0;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}

@@ -1,0 +1,43 @@
+$blue: rgba(26, 26, 75, 1);
+$dark-red: rgba(47, 15, 44, 1);
+$red: rgba(76, 0, 0, 1);
+
+.header {
+    display: flex;
+    justify-content: center;
+    min-height: 840px;
+    background: linear-gradient(180deg, #fff 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #fff 92.19%), url('/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1330px 1066px;
+}
+.titles {
+    margin-top: 20px;
+}
+.title {
+    text-align: center;
+    background: linear-gradient(99deg, $blue 0%, $dark-red 50%, $red 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
+.motto {
+    display: flex;
+    margin-top: 255px;
+    justify-content: center;
+    text-align: center;
+    color: #1a1a4b;
+    font-size: 41px;
+    font-weight: 700;
+}
+.description {
+    text-align: center;
+    margin: 50px 0;
+    background: linear-gradient(99deg, $blue 0%, $dark-red 50%, $red 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
